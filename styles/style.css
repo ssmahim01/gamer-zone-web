@@ -84,3 +84,76 @@ body{
     font-size:1.5rem;
     margin-left:0.5rem;
 }
+
+/* header styles start */
+
+.header-main{
+    max-width:1050px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.header-left-content{
+    width:40%;
+    background-image:url("../images/Group\ 14.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.play{
+    color:rgb(11, 2, 35);
+    font-size:3rem;
+    font-weight:600;
+    margin-bottom:2%;
+}
+
+.goat{
+    color:transparent;
+    background-image:linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip:text;
+    font-size:5.5rem;
+    font-weight:800;
+    margin-bottom:4%;
+}
+
+.header-left-content p{
+    color:rgb(83, 76, 100);
+    font-size:1.25rem;
+    font-weight:500;
+    margin-top:3%;
+}
+
+.header-btn{
+    border:none;
+   padding:1rem 2.4rem;
+    margin-top:7%;
+    color:rgb(255, 255, 255);
+    font-size:1.25rem;
+    font-weight:600;
+}
+
+.header-btn1{
+    border-radius:3rem;
+    background-image:linear-gradient(90deg, rgb(255, 66, 165) 13.134%, rgb(255, 66, 165) 87%);
+    margin-right:4%;
+}
+
+.header-btn2{
+    border-radius:3rem;
+    background-color:rgb(78, 197, 247);
+}
+
+.header-btn:hover{
+    cursor:pointer;
+}
+
+.header-right-content{
+    width:50%;
+}
+
+.header-right-content img{
+    width:100%;
+}

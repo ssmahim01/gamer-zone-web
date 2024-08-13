@@ -21,4 +21,38 @@
     .nav-follow{
         margin-top:12%;
     }
+
+    /* header responsive start */
+
+    .header-main{
+        margin-top:8%;
+        flex-direction:column-reverse;
+    }
+
+    .header-left-content{
+        width:80%;
+        margin-top:20%;
+        margin-left:15%;
+    }
+    
+    .play{
+        font-size:2.4rem;
+    }
+    
+    .goat{
+        font-size:4.6rem;
+    }
+
+    .header-left-content p{
+        font-size:1rem;
+    }
+
+    .header-btn{
+        font-size:1rem;
+        padding:1rem 2.2rem;
+    }
+
+    .header-right-content{
+        width:80%;
+    }
 }
