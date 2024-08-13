@@ -1,0 +1,86 @@
+/* The font family link of Work Sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Universal Selector */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body */
+
+body{
+    font-family: "Work Sans", sans-serif;
+}
+
+/* navbar styles start */
+
+.parent-all-content{
+    box-shadow:0 6px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-main{
+    max-width:1050px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1.25rem 0;
+}
+
+.nav-left-content{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:1.8rem;
+    font-weight:700;
+}
+
+.nav-left-content img{
+   width:25%;
+}
+
+.nav-left-content span{
+    color:rgb(255, 66, 165);
+}
+
+.nav-right-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:0;
+}
+
+.nav-btn, 
+.follow{
+    color:rgb(60, 53, 79);
+    font-size:1rem;
+    font-family: "Work Sans", sans-serif;
+    font-weight:500;
+    border:none;
+   background-color:transparent;
+   margin-right:20px;
+}
+
+.nav-btn, 
+.follow:hover{
+    cursor:pointer;
+}
+
+.nav-follow{
+    background-color:rgba(11, 2, 35, 0.1);
+    border-radius:0.5rem;
+    padding:0.7rem 1.1rem;
+}
+
+.follow{
+    margin-bottom:2%;
+}
+
+.follow i{
+    font-size:1.5rem;
+    margin-left:0.5rem;
+}

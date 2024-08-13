@@ -1,0 +1,24 @@
+/* Mobile screen responsive start */
+
+@media screen and (max-width:576px){
+    
+    /* navbar responsive start */
+
+    .parent-all-content{
+        box-shadow:none;
+    }
+
+    .nav-main{
+        flex-direction:column;
+    }
+
+    .nav-right-content{
+        margin-top:10%;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .nav-follow{
+        margin-top:12%;
+    }
+}
