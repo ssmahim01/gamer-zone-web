@@ -157,3 +157,74 @@ body{
 .header-right-content img{
     width:100%;
 }
+
+/* Gamer section styles start */
+
+.gamer-section{
+    max-width:1050px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:6%;
+}
+
+.gamer-image-container{
+   width:55%;
+}
+
+.gamer-image-container img{
+   width:100%;
+}
+
+.gamer-text-content{
+    width:40%;
+    text-align:right;
+}
+
+.gamer-title{
+    color:transparent;
+    font-size:3rem;
+    font-weight:700;
+    background-clip:text;
+    background-image:linear-gradient(180deg, rgb(249, 72, 178), rgb(135, 88, 241));
+}
+
+.gamer-description{
+    color:rgb(83, 76, 100);
+    font-size:1.1rem;
+    font-weight:500;
+    text-align:right;
+    margin-top:4%;
+}
+
+.gamer-btn{
+    color:rgb(255, 255, 255);
+    font-size:1.25rem;
+    font-weight:600;
+    padding:1rem 2.2rem;
+    border:none;
+    border-radius:3rem;
+    background-color:rgb(255, 66, 165);
+    margin-top:5%;
+    cursor:pointer;
+   /* margin-left:54%; */
+}
+
+.purpose-content{
+    margin-top:5%;
+    text-align:right;
+}
+
+.purpose-content span{
+    color:rgb(83, 76, 100);
+    font-size:1.3rem;
+    font-weight:500;
+}
+
+.purpose-content h2{
+    color:rgb(83, 76, 100);
+    font-size:1.6rem;
+    font-weight:800;
+    margin-top:2%;
+}

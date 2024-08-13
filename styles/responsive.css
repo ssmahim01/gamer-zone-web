@@ -53,6 +53,43 @@
     }
 
     .header-right-content{
-        width:80%;
+        width:90%;
+    }
+
+    /* Gamer section responsive start */
+
+    .gamer-section{
+        margin-top:20%;
+        flex-direction:column;
+    }
+
+    .gamer-image-container{
+        width:100%;
+    }
+
+    .gamer-text-content{
+        width:90%;
+        text-align:center;
+        margin-top:7%;
+    }
+
+    .gamer-title{
+        font-size:2.5rem;
+    }
+
+    .gamer-description{
+        font-size:1rem;
+        text-align:center;
+        margin-top:6%;
+        margin-bottom:2%;
+    }
+
+    .purpose-content{
+        margin-top:12%;
+        text-align:center;
+    }
+
+    .purpose-content h2{
+        font-size:1.3rem;
     }
 }
