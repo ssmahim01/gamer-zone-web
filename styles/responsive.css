@@ -93,4 +93,34 @@
     .purpose-content h2{
         font-size:1rem;
     }
+
+    /* online games responsive start */
+
+    .online-games-section{
+        width:90%;
+        margin-top:12%;
+    }
+
+   .online-games-title{
+    font-size:1.6rem;
+   }
+
+   .online-games-description{
+    font-size:0.65rem;
+   }
+
+   .image-cards-container{
+    grid-template-columns:1fr;
+    row-gap:70px;
+    margin-top:10%;
+    }
+
+    .online-description{
+        font-size:0.8rem;
+    }
+
+    .image-card{
+    width:90%;
+    margin:0 auto;
+    }
 }
