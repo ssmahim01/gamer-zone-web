@@ -98,6 +98,8 @@ body{
 
 .header-left-content{
     width:40%;
+    border-radius:1rem;
+    padding:1rem;
     background-image:url("../images/Group\ 14.png");
     background-position:center;
     background-repeat:no-repeat;
@@ -168,6 +170,9 @@ body{
     justify-content:space-between;
     align-items:center;
     margin-top:6%;
+    padding:2rem;
+    border-radius:1rem;
+    background-image:linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13%, rgba(255, 66, 165, 0.03) 87%);
 }
 
 .gamer-image-container{
@@ -225,7 +230,37 @@ body{
 
 .purpose-content h2{
     color:rgb(83, 76, 100);
-    font-size:1.6rem;
+    font-size:1.4rem;
     font-weight:800;
+    margin-top:2%;
+}
+
+/* online games section styles start */
+
+.online-games-section{
+    max-width:1050px;
+    margin:0 auto;
+    margin-top:7%;
+}
+
+.online-games-introduction{
+    text-align:center;
+}
+
+.online-games-title{
+    font-size:2.7rem;
+    font-weight:700;
+}
+
+.online-games-title span{
+    color:transparent;
+    background-image:linear-gradient(rgb(249, 72, 178), rgb(135, 88, 241));
+    background-clip:text;
+}
+
+.online-games-description{
+    color:rgb(83, 76, 100);
+    font-size:1rem;
+    font-weight:500;
     margin-top:2%;
 }
