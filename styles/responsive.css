@@ -152,4 +152,42 @@
         width:80%;
         margin-top:13%;
     }
+
+    /* online anytime section responsive start */
+
+    .online-anytime-container{
+        flex-direction:column-reverse;
+        margin-top:6rem;
+    }
+
+    .online-anytime-text-parent{
+        width:80%;
+    }
+
+    .online-anytime-title{
+        font-size:2rem;
+        text-align:center;
+    }
+
+    .online-anytime-introduction{
+        font-size:0.9rem;
+        text-align:center;
+        margin-top:2rem;
+    }
+
+    .online-anytime-images-parent{
+        width:90%;
+        margin-top:3rem;
+    }
+
+    .online-anytime-image-1{
+        width:90%;
+        margin:0 auto;
+    }
+
+    .online-anytime-image-2 img{
+       width:40%;
+       top:34%;
+       right:0;
+    }
 }

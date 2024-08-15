@@ -393,3 +393,61 @@ body{
     left:-6%;
     bottom:-12%;
 }
+
+/* online anytime section styles start */
+
+.online-anytime-container{
+    max-width:1050px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:12%;
+}
+
+.online-anytime-images-parent{
+    width:50%;
+    position:relative;
+}
+
+.online-anytime-image-1{
+    width:550px;
+    height:460px;
+}
+
+.online-anytime-image-1 img{
+    width:90%;
+    border-radius:0.5rem;
+}
+
+.online-anytime-image-2 img{
+    width:40%;
+    border-radius:0.5rem;
+    position:absolute;
+    right:-11%;
+    bottom:-16%;
+}
+
+.online-anytime-text-parent{
+    width:40%;
+}
+
+.online-anytime-title{
+    color:rgb(11, 2, 35);
+    font-size:3rem;
+    font-weight:700;
+    text-align:left;
+}
+
+.online-anytime-title #play-game{
+    color:transparent;
+    background-clip:text;
+    background-image:linear-gradient(90deg, rgb(249, 72, 178), rgb(135, 88, 241));
+}
+
+.online-anytime-introduction{
+    margin-top:1.6rem;
+    color:rgb(83, 76, 100);
+    font-size:1rem;
+    font-weight:500;
+}
