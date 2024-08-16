@@ -193,6 +193,10 @@
 
     /* footer responsive start */
 
+    .footer-container{
+        margin-top:-3rem;
+    }
+
     .footer-all-content-parent{
         width:50%;
         margin:0 20%;
